@@ -65,13 +65,13 @@ npm run dev
 ```
 
 ## 📡 API Routes
-/----------------------------------------
-Method	 | Endpoint	        | Description
-----------------------------------------/
-POST	 /api/login	          Admin login (Sanctum)
-GET	     /api/kids	          List all children
-POST	 /api/kids/{id}/log	  Log a brushing session
-GET	     /api/kids/{id}/log	  View brushing history
+
+| Method | Endpoint             | Description            |
+|--------|----------------------|------------------------|
+| POST   | `/api/login`         | Admin login (Sanctum)  |
+| GET    | `/api/kids`          | List all children      |
+| POST   | `/api/kids/{id}/log` | Log a brushing session |
+| GET    | `/api/kids/{id}/log` | View brushing history  |
 
 ## 🎯 Stretch Goals
 - Add brushing streaks & badges
